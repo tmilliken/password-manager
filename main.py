@@ -60,6 +60,7 @@ def save_data():
 
 # -------------------------SEARCH FUNCTION ---------------------------- #
 
+
 def search_file():
     website = entry_url.get().title()
     try:
@@ -79,6 +80,7 @@ def search_file():
         f.close()
 
 # ---------------------------- UI SETUP ------------------------------- #
+
 
 window = Tk()
 window.title("Password Manager")
